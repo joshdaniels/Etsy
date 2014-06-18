@@ -1,0 +1,104 @@
+@import '../bower_components/bourbon/dist/bourbon';
+
+body{
+    background-color:#F5F5F1;
+}
+.header-container{
+position: relative;
+width: 1010px;
+height: 70px;
+float: left;
+}
+.logo{
+    background-image:url("../images/etsy_logo.jpg");
+    height:55px;
+    width:100px;
+    float: left;
+position: absolute;
+left: 81px;
+}
+
+.header-links{
+font-family:'Myriad Pro';
+color:#0192B5;
+word-spacing:5px;
+font-size:13px;
+float: left;
+padding-left: 79px;
+}
+.nav-menu{
+background-image:url("../images/nav-menu.png");
+height: 60px;
+width: 880px;
+position: absolute;
+left: 181px;
+top: -4px;
+clear: both;
+
+}
+.side-menu{
+background-image:url(../images/side-menu-top.png);
+width: 254px;
+height: 1204px;
+float: left;
+margin-left: 66px;
+
+}
+.box{
+float: left;
+width: 258px;
+background-color: white;
+height: 263px;
+margin-left: 10px;
+margin-bottom: 15px;
+position: relative;
+}
+.images{
+margin-left: 4px;
+margin-right: 4px;
+margin-top: 4px;
+}
+.title{
+margin-left:5px;
+margin-right:5px;
+height: 34px;
+overflow: scroll;
+font-size: 13px;
+font-family:'Myriad Pro';
+}
+.results{
+float: left;
+width: 811px;
+position: relative;
+}
+.price{
+float: right;
+padding-right: 5px;
+font-family: Myriad Pro;
+ font-size: 13px;
+color: #78c071;
+}
+.money{
+float: right;
+font-family: Myriad Pro;
+ font-size: 13px;
+color: #78c071;
+padding-right: 5px;
+}
+
+.counter{
+    background-image:url("../images/search.png");
+height: 53px;
+width: 658px;
+float: right;
+clear: both;
+padding-right: 161px;
+background-repeat: no-repeat;
+}
+footer{
+    background-image:url("../images/footer.png");
+    width: 1159px;
+height: 252px;
+float: none;
+clear: both;
+}
